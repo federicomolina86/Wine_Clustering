@@ -23,3 +23,9 @@ K-means clustering is applied to group similar wines based on their chemical pro
 - Total_Phenols and Proanthocyanins have a strong correlation too. Proanthocyanins is a type of phenols that prevents urinary tract infections, cardiovascular problems and inhibit the activity of the Escherichia Coli bacteria. Maybe that's because sommeliers recommends red wines with meat. And doctors say that a cup of wine is goood for the heart.
 - There is a correlation between Alcohol and Color_Intensity. That's because ripe grapes gives wine high levels of alcohol and color.
 - Proline has a correlation with alcohol. It's an amino acid that increases sweetness, viscosity and red fruit flavor, and decreases bitterness and astringency.
+
+## This repository contains the following files:
+- `scripts.ipynb`: EDA, visualizations, K-means clustering and insights.
+- `wine-clustering.csv`: csv file with wine dataset.
+- `README.md`: README file of this repository.
+- `src`: folder with images.
