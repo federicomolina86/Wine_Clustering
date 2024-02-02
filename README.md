@@ -29,5 +29,6 @@ K-means clustering is applied to group similar wines based on their chemical pro
 ## This repository contains the following files:
 - `scripts.ipynb`: EDA, visualizations, K-means clustering and insights.
 - `wine-clustering.csv`: csv file with wine dataset.
+- `requirements.txt`: txt file with all versions of libraries used in the project.
 - `README.md`: README file of this repository.
 - `src`: folder with images.
