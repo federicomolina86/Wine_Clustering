@@ -2,7 +2,7 @@
 
 This repository contains an exploratory data analysis (EDA) and the application of the K-means clustering technique to the Wine dataset. The analysis aims to gain insights into the characteristics of different wines and uncover patterns within the dataset.
 
-![](https://github.com/federicomolina86/Wine_Clustering/blob/main/src/wine_cups.jpg)
+![](https://github.com/federicomolina86/Wine_Clustering/blob/main/src/wine-cups.jpg)
 
 ## Dataset Overview
 
