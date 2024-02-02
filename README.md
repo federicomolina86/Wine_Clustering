@@ -1,6 +1,6 @@
 # Wine_Clustering
 
-This repository contains an exploratory data analysis (EDA) and the application of the K-means clustering technique to the Wine dataset. The analysis aims to gain insights into the characteristics of different wines and uncover patterns within the dataset.
+This repository contains an exploratory data analysis (EDA) and the application of the `K-means` clustering technique to the Wine dataset. The analysis aims to gain insights into the characteristics of different wines and uncover patterns within the dataset.
 
 ![](https://github.com/federicomolina86/Wine_Clustering/blob/main/src/wine-cups.jpg)
 
@@ -10,7 +10,7 @@ The Wine dataset used in this analysis includes information on various chemical 
 
 ## Exploratory Data Analysis (EDA)
 
-The exploratory data analysis explores key features of the dataset, providing visualizations and summary statistics to understand the distribution and relationships between variables. The analysis includes but is not limited to:
+The exploratory data analysis explores key features of the dataset, providing visualizations and summary statistics to understand the distribution and relationships between variables, using `Pandas`, `Matplotlib` and `Seaborn`. The analysis includes but is not limited to:
 
 - Distribution of chemical properties.
 - Correlation analysis.
@@ -18,7 +18,7 @@ The exploratory data analysis explores key features of the dataset, providing vi
 
 ## K-means Clustering
 
-K-means clustering is applied to group similar wines based on their chemical properties. The number of clusters is determined through Elbow and Silhouette analysis. The resulting clusters provide insights into the natural groupings within the dataset.
+K-means clustering is applied to group similar wines based on their chemical properties. The number of clusters is determined through Elbow and Silhouette analysis. The resulting clusters provide insights into the natural groupings within the dataset. For this, `Scikit-learn` library was used.
 
 ## Insights
 - There is a strong correlation between Total_Phenols and Flavanoids. Wines who have high levels of these are best in quality. Phenols gives wine a lot of characteristics like flavour, color and astringency. Flavanoids give wines antispasmodic, antiulcer and anti-inflammatory action.
