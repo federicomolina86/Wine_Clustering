@@ -19,4 +19,7 @@ The exploratory data analysis explores key features of the dataset, providing vi
 K-means clustering is applied to group similar wines based on their chemical properties. The number of clusters is determined through Elbow and Silhouette analysis. The resulting clusters provide insights into the natural groupings within the dataset.
 
 ## Insights
-- 
+- There is a strong correlation between Total_Phenols and Flavanoids. Wines who have high levels of these are best in quality. Phenols gives wine a lot of characteristics like flavour, color and astringency. Flavanoids give wines antispasmodic, antiulcer and anti-inflammatory action.
+- Total_Phenols and Proanthocyanins have a strong correlation too. Proanthocyanins is a type of phenols that prevents urinary tract infections, cardiovascular problems and inhibit the activity of the Escherichia Coli bacteria. Maybe that's because sommeliers recommends red wines with meat. And doctors say that a cup of wine is goood for the heart.
+- There is a correlation between Alcohol and Color_Intensity. That's because ripe grapes gives wine high levels of alcohol and color.
+- Proline has a correlation with alcohol. It's an amino acid that increases sweetness, viscosity and red fruit flavor, and decreases bitterness and astringency.
