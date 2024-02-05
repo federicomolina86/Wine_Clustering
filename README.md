@@ -30,13 +30,10 @@ K-means clustering is applied to group similar wines based on their chemical pro
 
 ### Steps
 
-* **Clone the Repository:**` git clone https://github.com/federicomolina86/Wine_CLustering`
-
+* **Clone the Repository:** `git clone https://github.com/federicomolina86/Wine_CLustering`
 `cd your-repository`
-
-* **Build the Docker Image:** `docker build -t wineclustering .   `
-* **Run the Docker Container:** `b`
-
+* **Build the Docker Image:** `docker build -t wineclustering .`
+* **Run the Docker Container:** `docker run wineclustering`
   This command will execute the analysis within the Docker container.
 * **View the Results:**
   Check the console output for any printed results.
