@@ -49,7 +49,7 @@ K-means clustering is applied to group similar wines based on their chemical pro
 
 ## This repository contains the following files:
 
-- `Dockerfile:` file with no extension used for create the Docker image.
+- `Dockerfile:` no extension file used for create the Docker image.
 - `scripts.ipynb`: EDA, visualizations, K-means clustering and insights.
 - `scripts.py:` file used by Dockerfile.
 - `wine-clustering.csv`: csv file with wine dataset.
