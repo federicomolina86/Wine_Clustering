@@ -30,15 +30,23 @@ K-means clustering is applied to group similar wines based on their chemical pro
 
 ### Steps
 
-* **Clone the Repository:** `git clone https://github.com/federicomolina86/Wine_CLustering`
-`cd your-repository`
+* **Clone the Repository:** `git clone https://github.com/federicomolina86/Wine_Clustering`
+`cd Wine_Clustering`
 * **Build the Docker Image:** `docker build -t wineclustering .`
 * **Run the Docker Container:** `docker run wineclustering`
   This command will execute the analysis within the Docker container.
 * **View the Results:**
   Check the console output for any printed results.
 
-
+  ## Creating an API with Flask
+- Install `Flask`.
+- Create the file named `app.py` and write a simple Flask app to serve the wine dataset.
+- Run app: `python app.py`. This will start the Flask development server.
+- Create the `Dockerfile`.
+- Build Docker image: `docker build -t winesapi .`
+- Run the conteiner: `docker run -p 5000:5000 winesapi`. This redirects port 5000 of the container to the host's port 5000.
+- Access the API: it will be available in `http://127.0.0.1:5000/wines`
+  
 ## Insights
 
 - There is a strong correlation between Total_Phenols and Flavanoids. Wines who have high levels of these are best in quality. Phenols gives wine a lot of characteristics like flavour, color and astringency. Flavanoids give wines antispasmodic, antiulcer and anti-inflammatory action.
@@ -54,5 +62,6 @@ K-means clustering is applied to group similar wines based on their chemical pro
 - `scripts.py:` file used by Dockerfile.
 - `wine-clustering.csv`: csv file with wine dataset.
 - `requirements.txt`: txt file with all versions of libraries used in the project.
+- `WineAPI`: folder with 
 - `README.md`: README file of this repository.
 - `src`: folder with images.
