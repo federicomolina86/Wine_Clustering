@@ -62,6 +62,6 @@ K-means clustering is applied to group similar wines based on their chemical pro
 - `scripts.py:` file used by Dockerfile.
 - `wine-clustering.csv`: csv file with wine dataset.
 - `requirements.txt`: txt file with all versions of libraries used in the project.
-- `WineAPI`: folder with 
+- `WineAPI`: folder with necessary files for create an API.
 - `README.md`: README file of this repository.
 - `src`: folder with images.
